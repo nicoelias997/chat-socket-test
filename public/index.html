@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <ul id="messages"></ul>
+      <form id="form" action="">
+        <input id="input" autocomplete="off" /><button>Send</button>
+      </form>
+<script src="/socket.io/socket.io.js"></script>
+<!-- Debemos requerir este script, ya que es como un typescript que genera socket, una vez importado, este genera una variable llamada io() la cual podemos utilizar en cualquier javascript  -->
+<script src="chatSocket.js"></script>
+  </body>
+</html>
+
+
+
